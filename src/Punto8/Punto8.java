@@ -16,7 +16,7 @@ public class Punto8 {
     
     public static void main(String[] args){
         
-        ArrayList<Libros> librosArray = new ArrayList<Libros>();
+        ArrayList<Libro> librosArray = new ArrayList<Libro>();
         
         System.out.println("Ingrese el ISBN del libro: ");
         Scanner scanner1 = new Scanner(System.in);
