@@ -19,11 +19,18 @@ public class Libros {
     public Libros() {
     }
 
-    public String getIsbn() {
+    public Libros(int isbn, String titulo, String autor, double precio) {
+        this.isbn = isbn;
+        this.titulo = titulo;
+        this.autor = autor;
+        this.precio = precio;
+    }
+
+    public int getIsbn() {
         return isbn;
     }
 
-    public void setIsbn(String isbn) {
+    public void setIsbn(int isbn) {
         this.isbn = isbn;
     }
 
@@ -51,6 +58,13 @@ public class Libros {
         this.precio = precio;
     }
     
-    
+    public void mostrarLibros (){
+        System.out.println("============ Libros =============");
+        System.out.println("ISBN: " + getIsbn());
+        System.out.println("Titulo: " + getTitulo());
+        System.out.println("Autor: " + getAutor());
+        System.out.println("Precio: " + getPrecio());
+        System.out.println("---------------------------------");
+    }
     
 }

@@ -20,10 +20,19 @@ public class Punto8 {
         
         System.out.println("Ingrese el ISBN del libro: ");
         Scanner scanner1 = new Scanner(System.in);
-        int isbn = scanner1.nextInt();
-        
+        int isbn = scanner1.nextInt();        
          
+        System.out.println("Ingrese el Titulo del libro: ");
+        Scanner scanner2 = new Scanner(System.in);
+        String tituloLibro = scanner2.nextLine();
         
+        System.out.println("Ingrese el Autor del libro: ");
+        Scanner scanner3 = new Scanner(System.in);
+        String autorLibro = scanner3.nextLine();
+        
+        System.out.println("Ingrese el Precio del libro: ");
+        Scanner scanner4 = new Scanner(System.in);
+        int precioLibro = scanner4.nextInt();
         
        
     }
