@@ -20,8 +20,11 @@ public class Punto8 {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Libro> librosArray = new ArrayList<Libro>();
         Libro libro = new Libro();
-        
-        for(int i = 0; i < 3; i++){
+
+        System.out.println("Cuantos libros desea ingresar?");
+        int limite = scanner.nextInt();
+              
+        for(int i = 0; i < limite; i++){
             
             libro = new Libro();
             
